@@ -1,0 +1,21 @@
+[{
+    "Username":"standard_user",
+    "Password":"secret_sauce",
+    "expected_result":"Successful checkout"
+},
+{
+    "Username":"locked_out_user",
+    "Password":"secret_sauce",
+    "expected_result":"Login rejected"
+},
+{
+    "Username":"problem_user",
+    "Password":"secret_sauce",
+    "expected_result":"Application defect during checkout"
+},
+{
+    "Username":"performance_glitch_user",
+    "Password":"secret_sauce",
+    "expected_result":"Successful checkout, potentially slower"
+}
+]
