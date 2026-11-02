@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 @pytest_asyncio.fixture()
 async def browser_asyn():
    async with async_playwright() as ap:
-       browser = await ap.firefox.launch(headless=False)
+       browser = await ap.firefox.launch(headless=True)
        yield browser
        try:
             await browser.close()

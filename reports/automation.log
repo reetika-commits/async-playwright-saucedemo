@@ -275,3 +275,15 @@ Call log:
 2026-11-02 13:14:30,009 - INFO - saucedemo - Login button clicked for problem_user
 2026-11-02 13:14:30,777 - ERROR - saucedemo - Expected error for problem_user
 NoneType: None
+2026-11-02 13:56:13,197 - INFO - saucedemo - Clicking login for standard_user
+2026-11-02 13:56:13,827 - INFO - saucedemo - Login button clicked for standard_user
+2026-11-02 13:56:13,899 - INFO - saucedemo - Clicking login for locked_out_user
+2026-11-02 13:56:14,021 - INFO - saucedemo - Login button clicked for locked_out_user
+2026-11-02 13:56:14,037 - ERROR - saucedemo - Expected error for locked_out_user
+NoneType: None
+2026-11-02 13:56:15,591 - INFO - saucedemo - Clicking login for problem_user
+2026-11-02 13:56:15,708 - INFO - saucedemo - Login button clicked for problem_user
+2026-11-02 13:56:16,328 - ERROR - saucedemo - Expected error for problem_user
+NoneType: None
+2026-11-02 13:56:16,329 - INFO - saucedemo - Clicking login for performance_glitch_user
+2026-11-02 13:56:21,472 - INFO - saucedemo - Login button clicked for performance_glitch_user
